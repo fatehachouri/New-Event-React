@@ -4,6 +4,9 @@ import theme from "../../../../design-system/config";
 export const NavbarWrapper= styled.section`
 label:NavbarWrapper;
 background-color:${theme.secondary};
+position:fixed;
+width:100%;
+
 padding:1.5rem 0;
 color:${theme.white};
 `;
