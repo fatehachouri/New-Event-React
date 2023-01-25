@@ -1,3 +1,4 @@
+import './design-system/main.css'
 import SpeakersData from './design-system/components/creativeSpeakers/SpeakersData';
 import CreativeSpeakers from './design-system/components/creativeSpeakers/CreativeSpeakers';
 function App() {
