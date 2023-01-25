@@ -1,8 +1,16 @@
-
+import SpeakersData from './design-system/components/creativeSpeakers/SpeakersData';
+import CreativeSpeakers from './design-system/components/creativeSpeakers/CreativeSpeakers';
 function App() {
   return (
-    <div className="App">
-    fd
+    <div>
+      <div style={{display:"flex"}}>
+{
+  SpeakersData.map(item=>{
+    return <CreativeSpeakers key={item.id} {...item}/>
+  })   
+  
+}
+      </div>
     </div>
   );
 }
