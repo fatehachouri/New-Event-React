@@ -1,11 +1,11 @@
 import React from 'react';
-import { SpeakersWrapper } from './styles';
+import { H2, Job, SpeakersWrapper } from './styles';
 export default function CreativeSpeakers({img,name,job,alt}) {
   return (
     <SpeakersWrapper>
         <img src={img} alt={alt} width="100%" />
-        <h2>{name}</h2>
-        <span>{job}</span>
+        <H2>{name}</H2>
+        <Job>{job}</Job>
         </SpeakersWrapper>
   )
 }
