@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar/Navbar";
 import OurProgramsPage from "./components/OurProgramsPage";
 import Overview from "./components/Overview";
+import RegisterHere from "./components/RegisterHere";
 import WatchVideo from "./components/WatchVideo";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
     <WatchVideo />
     <CreativeSpeakersComponent />
     <OurProgramsPage />
+    <RegisterHere />
     </>
   )
 }
