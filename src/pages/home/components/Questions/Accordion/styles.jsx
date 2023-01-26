@@ -4,8 +4,8 @@ import theme from "../../../../../design-system/config";
 export const Wrapper= styled.div`
 label:Wrapper;
 display: flex;
-justify-content: center;
 align-items: center;
+justify-content: center;
 height:500px;
 `;
 export const AccordionWrapper= styled.div`
@@ -15,7 +15,6 @@ width:70%;
 `;
 export const Item= styled.div`
 label:Item;
-width:70%;
 margin-bottom:10px;
 box-shadow: 0px 3px 6px -4px #777;
 `;
@@ -55,5 +54,4 @@ label:P;
 padding:  0.5rem;
 color:${theme.gray};
 text-align:left;
-
 `;
