@@ -8,6 +8,7 @@ position:fixed;
 width:100%;
 padding:1.5rem 0;
 color:${theme.white};
+z-index:2;
 `;
 export const NavContainer= styled.div`
 label:NavContainer;

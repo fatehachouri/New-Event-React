@@ -1,6 +1,7 @@
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 import CreativeSpeakersComponent from "./components/CreativeSpeakers/CreativeSpeakers";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar/Navbar";
 import OurProgramsPage from "./components/OurProgramsPage";
@@ -26,6 +27,7 @@ export default function Home() {
     <Venue />
     <Sponsor />
     <ContactUs />
+    <Footer />
     </>
   )
 }
