@@ -32,7 +32,7 @@ export default function ContactUs() {
           <Textarea placeholder="Message"></Textarea>
           </InputWrapper>
           <div>
-            <SendNow>Send Now</SendNow>
+            <SendNow style={{marginTop:"5rem" }} >Send Now</SendNow>
           </div>
         </form>
         </FormWrapper>
